@@ -1,0 +1,123 @@
+.register{
+    width: 100vw;
+    height: auto;
+    background-color: rgba(97, 57, 167, 0.886);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.childRegister{
+    width: 70vw;
+    height: auto;
+display: flex;
+/* align-items:center;   */
+justify-content: flex-end;
+background-color: rgba(145, 111, 210, 0.886);
+border-radius: 20px;
+margin: 3rem 0;
+/* padding-left: 4rem; */
+
+}
+.aside{
+    width: 30vw;
+    height: auto;
+    /* border: 1px solid red; */
+padding: 0 0 2rem 0;
+/* gap: 2rem; */
+    position: relative;
+   margin: 4rem;
+    /* align-self: flex-start; */   
+
+}
+h1{
+    /* width: 25vw; */
+    color: white;
+    /* padding-left: 20px; */
+
+}
+img{
+    z-index: 1;
+    width: 27vw;
+    position: absolute;
+    left: 2rem;
+    
+    transform: rotate(280deg);
+
+}
+
+.registerDtails{
+    width: 50vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 3rem;
+    margin: 1.5rem 0;
+}
+h2{
+    font-family: sans-serif;
+}
+
+
+.registerForm{
+        /* height: 30vh; */
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 1.3rem;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+
+
+span{
+    display: flex;
+    justify-content: space-evenly;
+    gap:0.5rem;
+}
+input{
+    height: 5vh;
+    text-align: center;
+    width: 14vw;
+border: 0.5px solid gray;
+border-radius: 5px;
+}
+.email,.password{
+    width: 29vw;
+}
+.createAccountBtn{
+    background-color: rgba(145, 111, 210, 0.886);
+    height: 6vh;
+    width: 29.5vw;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.lines{
+    width: 13.5vw;
+    
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .childRegister{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .createAccountBtn{
+        font-size: 0.7rem;
+    }
+   
+}
